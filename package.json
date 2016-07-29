@@ -1,0 +1,28 @@
+{
+  "name": "user-management",
+  "version": "1.0.0",
+  "description": "LoopBack user management example",
+  "main": "server/server.js",
+  "scripts": {
+    "pretest": "jshint .",
+    "start": "node .",
+    "test": "tape tests/**/*.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.10.0",
+    "compression": "^1.0.3",
+    "errorhandler": "^1.1.1",
+    "leancloud-storage": "^1.3.2",
+    "loopback": "^2.8.0",
+    "loopback-boot": "^2.4.0",
+    "loopback-component-explorer": "^2.1.0",
+    "loopback-connector-mongodb": "^1.15.2",
+    "loopback-datasource-juggler": "^2.7.0",
+    "serve-favicon": "^2.0.1"
+  },
+  "devDependencies": {
+    "jshint": "^2.5.6",
+    "tape": "^4.2.0"
+  },
+  "license": "MIT"
+}
