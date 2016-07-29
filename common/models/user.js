@@ -9,8 +9,8 @@ var AV = require('leancloud-storage');
 var config = require('../../server/config.json');
 var path = require('path');
 
-var APP_ID = 'DINSYC4JEYthPaAmI0aXOiRW-gzGzoHsz';
-var APP_KEY = 'DSVRLT2YNoAOgzdwYzFhAcLD';
+var APP_ID = '';
+var APP_KEY = '';
 AV.init({
   appId: APP_ID,
   appKey: APP_KEY
