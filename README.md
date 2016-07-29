@@ -1,6 +1,6 @@
 #loopback-example-user-management
 ```
-$ cd user-management
+$ cd loopback-user-management
 $ npm install
 $ node .
 ```
